@@ -1,6 +1,5 @@
 const allowCopyPaste = (e) => {
   e.stopImmediatePropagation();
-  console.log('you can now copy & paste');
   return true;
 };
 
